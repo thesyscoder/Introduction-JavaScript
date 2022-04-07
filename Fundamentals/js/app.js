@@ -3,7 +3,7 @@
 let js = "awesome";
 
 if (js === "awesome") {
-  alert("Yess!!!, Javascript is awesome");
+  //   alert("Yess!!!, Javascript is awesome");
 }
 
 // console log
@@ -18,3 +18,16 @@ console.log(name);
 
 let firstName = "";
 let first_name = "";
+
+// data types in javascript
+
+let javaScript = true;
+console.log(javaScript);
+
+let age = 25;
+console.log(age);
+console.log(typeof age);
+
+let fruit = "Apple";
+console.log(fruit);
+console.log(typeof fruit);
