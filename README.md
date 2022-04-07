@@ -31,3 +31,5 @@ in javascript every value is object or Premitive data types.
 7. BigInt
 
 These are the total seven types of data types in javascript.
+
+### Operators in Javascript
