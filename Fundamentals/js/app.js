@@ -144,3 +144,9 @@ if (iPhone && macbook) {
 } else {
   console.log("Not apple lover");
 }
+
+// ternary operator
+
+const id = 14;
+
+id >= 12 ? console.log("small number") : console.log("Large number");
