@@ -64,3 +64,19 @@ let x = 10;
 x += 23;
 
 console.log(x);
+
+console.log(x++);
+console.log(x--);
+console.log(--x);
+console.log(++x);
+console.log(ageSarah >= 12);
+console.log(ageJake <= 12);
+
+// operator precedence
+
+const cur_age = 2022;
+
+const age_j = cur_age - 1991;
+const age_k = cur_age - 2010;
+
+console.log(cur_age - 1991 > cur_age - 2010);
