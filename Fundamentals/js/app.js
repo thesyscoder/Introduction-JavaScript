@@ -80,3 +80,12 @@ const age_j = cur_age - 1991;
 const age_k = cur_age - 2010;
 
 console.log(cur_age - 1991 > cur_age - 2010);
+
+// string and templates
+
+const job = "DevOps";
+const sysCoder = "i'm SysCoder, Working as " + job;
+console.log(sysCoder);
+
+const sysCoder_new = `I'm ${job}`;
+console.log(sysCoder_new);
