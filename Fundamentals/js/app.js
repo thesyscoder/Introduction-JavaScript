@@ -89,3 +89,58 @@ console.log(sysCoder);
 
 const sysCoder_new = `I'm ${job}`;
 console.log(sysCoder_new);
+
+// type conversion in javascript
+
+const inputYear = "1994";
+
+console.log(typeof inputYear);
+console.log(Number(inputYear), inputYear, Number(inputYear) + 18);
+
+// Truthy and Falsy values
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("jake"));
+console.log(Boolean(""));
+
+const money = 0;
+
+if (money) {
+  console.log("Dont Spend to much money");
+} else {
+  console.log("You have good money");
+}
+
+// Equality Operators
+
+const price = 10;
+
+// === called strict equal
+
+if (price === 10) {
+  console.log("less price");
+}
+
+// == called loose equeal it will compare number and string  format number as well
+
+const num = Number(prompt("What is your favourite number"));
+
+if (num === 23) {
+  console.log("Amezing number");
+} else {
+  console.log("Try another number");
+}
+
+// logical operators
+
+const iPhone = true;
+const macbook = false;
+
+if (iPhone && macbook) {
+  console.log("Apple Lover 💻");
+} else if (iPhone || macbook) {
+  console.log("Partial lover");
+} else {
+  console.log("Not apple lover");
+}
