@@ -66,3 +66,24 @@ console.log(nextYearAge);
 
 const multiplyAge = countAge * 2;
 console.log(multiplyAge);
+
+const firstName = "James";
+const lastName = "Jonas";
+
+console.log(firstName + " " + lastName);
+
+// math operators
+let x = 10;
+console.log(x);
+x += 10;
+console.log(x);
+x++;
+console.log(x);
+x--;
+console.log(x);
+
+// comparison operators
+const value = 120;
+console.log(value > 100);
+console.log(value < 100);
+console.log(value <= 120);
