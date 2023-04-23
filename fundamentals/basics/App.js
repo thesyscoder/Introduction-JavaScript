@@ -87,3 +87,16 @@ const value = 120;
 console.log(value > 100);
 console.log(value < 100);
 console.log(value <= 120);
+
+// String and templates
+
+const fName = "Jonas";
+const job = "Programer";
+const jonasDOB = 1994;
+
+const jonas =
+  "I'am " + fName + ", a " + (currentYear - jonasDOB) + " Years old " + job;
+console.log(jonas);
+
+const jonasInfo = `I'am ${fName}, a ${currentYear - jonasDOB} Years old ${job}`;
+console.log(jonasInfo);
