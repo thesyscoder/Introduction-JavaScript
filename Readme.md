@@ -12,3 +12,6 @@ In this section, covered all the fundamentals of JavaScript Like, DataTypes, var
 - [Values and Variables](/fundamentals/HelloWorld/)
 - [Data Types](/fundamentals/HelloWorld/)
 - [Operators](/fundamentals/HelloWorld/)
+- [Strings and Templates](/fundamentals/HelloWorld/)
+- [if/else Statement](/fundamentals/HelloWorld/)
+- [Type Conversion](/fundamentals/HelloWorld/)
