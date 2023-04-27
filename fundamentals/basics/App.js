@@ -122,7 +122,7 @@ console.log(typeof newYear);
 
 // Equality Operator
 
-const favorite = Number(prompt("What's your favorite number ?"));
+// const favorite = Number(prompt("What's your favorite number ?"));
 console.log(typeof favorite);
 
 if (favorite === 45) {
