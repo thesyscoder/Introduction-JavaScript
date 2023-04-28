@@ -122,11 +122,33 @@ console.log(typeof newYear);
 
 // Equality Operator
 
-// const favorite = Number(prompt("What's your favorite number ?"));
+const favorite = 47;
 console.log(typeof favorite);
 
 if (favorite === 45) {
-  alert("Awesome, this my favorite number");
+  console.log("Awesome, this my favorite number");
 } else {
-  alert2("Check with other number");
+  console.log("Check with other number");
+}
+
+// Logical operator
+
+const username = "coder";
+const password = "javascript2";
+
+if (username === "coder" && password === "javascript") {
+  console.log("Welcome to coding world");
+} else {
+  console.log("Invalid username or password");
+}
+
+const adult = 18;
+const hasCar = false;
+
+if (adult >= 18 && hasCar === true) {
+  console.log("John can enjoy his ride");
+} else if (age >= 18 || hasCar === true) {
+  console.log("Also enjoy ride");
+} else {
+  console.log("Need to wait");
 }

@@ -33,7 +33,7 @@ if (number > 10) {
 }
 
 // check the number is positive
-const num = Number(prompt("Enter the number"));
+const num = 10;
 
 if (num > 0) {
   console.log("Number is positive");
