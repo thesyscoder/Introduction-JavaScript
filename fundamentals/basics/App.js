@@ -47,3 +47,22 @@ console.log(isFull);
 
 let year;
 console.log(year);
+
+// Basic Operators
+/*
+    1. Mathematical Operator
+*/
+
+// mathematical operator
+
+let countAge;
+const DOB = 1994;
+const currentYear = 2023;
+countAge = currentYear - DOB;
+console.log(`My age is ${countAge}`);
+
+const nextYearAge = countAge + 1;
+console.log(nextYearAge);
+
+const multiplyAge = countAge * 2;
+console.log(multiplyAge);
