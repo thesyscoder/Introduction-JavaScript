@@ -1,4 +1,4 @@
-// calculate BMI
+// Codding Challenge1 : calculate BMI
 
 const markWeight = 78;
 const markHeight = 1.69;
@@ -13,3 +13,21 @@ console.log(markBmiCal, johnBmiCal);
 const compareBMI = markBmiCal > johnBmiCal;
 
 console.log(compareBMI);
+
+// Codding Challenge 2: Print given number is even or odd
+
+const number = 31;
+
+if (number % 2 == 0) {
+  console.log(`${number} is Even Number`);
+} else {
+  console.log(`${number} is Odd Number`);
+}
+
+// check greater number
+
+if (number > 10) {
+  console.log(`${number} is greater than 10`);
+} else {
+  console.log(`${number} is less than 10`);
+}

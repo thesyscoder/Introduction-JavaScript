@@ -87,3 +87,29 @@ const value = 120;
 console.log(value > 100);
 console.log(value < 100);
 console.log(value <= 120);
+
+// String and templates
+
+const fName = "Jonas";
+const job = "Programer";
+const jonasDOB = 1994;
+
+const jonas =
+  "I'am " + fName + ", a " + (currentYear - jonasDOB) + " Years old " + job;
+console.log(jonas);
+
+const jonasInfo = `I'am ${fName}, a ${currentYear - jonasDOB} Years old ${job}`;
+console.log(jonasInfo);
+
+// if/else statements
+
+const age = 19;
+const isOld = age >= 18;
+
+if (isOld) {
+  console.log(`Person is eligible for driving license`);
+} else {
+  console.log("Not eligible for driving license");
+}
+
+if (isOld) console.log("Another way to use if");
