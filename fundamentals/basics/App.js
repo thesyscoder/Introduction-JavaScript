@@ -113,3 +113,9 @@ if (isOld) {
 }
 
 if (isOld) console.log("Another way to use if");
+
+// Type Conversion
+const inputYear = "1994";
+console.log(typeof inputYear);
+const newYear = Number(inputYear);
+console.log(typeof newYear);
