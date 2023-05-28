@@ -119,3 +119,14 @@ const inputYear = "1994";
 console.log(typeof inputYear);
 const newYear = Number(inputYear);
 console.log(typeof newYear);
+
+// Equality Operator
+
+const favorite = Number(prompt("What's your favorite number ?"));
+console.log(typeof favorite);
+
+if (favorite === 45) {
+  alert("Awesome, this my favorite number");
+} else {
+  alert2("Check with other number");
+}
