@@ -15,3 +15,4 @@ In this section, covered all the fundamentals of JavaScript Like, DataTypes, var
 - [Strings and Templates](/fundamentals/HelloWorld/)
 - [if/else Statement](/fundamentals/HelloWorld/)
 - [Type Conversion](/fundamentals/HelloWorld/)
+- [Boolean Logic](/fundamentals/HelloWorld/)

@@ -31,3 +31,12 @@ if (number > 10) {
 } else {
   console.log(`${number} is less than 10`);
 }
+
+// check the number is positive
+const num = Number(prompt("Enter the number"));
+
+if (num > 0) {
+  console.log("Number is positive");
+} else {
+  console.log("Number is negative");
+}
