@@ -16,3 +16,4 @@ In this section, covered all the fundamentals of JavaScript Like, DataTypes, var
 - [if/else Statement](/fundamentals/HelloWorld/)
 - [Type Conversion](/fundamentals/HelloWorld/)
 - [Boolean Logic](/fundamentals/HelloWorld/)
+- [Logical Operator](/fundamentals/HelloWorld/)
