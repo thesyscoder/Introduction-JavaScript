@@ -152,3 +152,10 @@ if (adult >= 18 && hasCar === true) {
 } else {
   console.log("Need to wait");
 }
+
+
+// Ternary Operator
+
+const current_age = 17;
+
+current_age >= 18 ? console.log("ELigible for driving ") : console.log("Not eligible for driving ");
